@@ -1,0 +1,58 @@
+
+.welcome {
+  margin-top: 1rem;
+  padding: 0 .625rem;
+}
+
+.welcome__title {
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 3.5rem;
+  color: $color3;
+}
+
+.welcome__desc {
+  margin-top: 1.5625rem;
+  font-size: 1.3125rem;
+  font-weight: 300;
+  line-height: 2rem;
+  color: $color2;
+}
+
+.welcome__img {
+  display: none;
+}
+
+.welcome__btn {
+  margin-top: 1rem;
+  padding: 1rem 2.5rem;
+  background: $color1;
+  color: $color4;
+  border: none;
+  border-radius: 2.5rem;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+@media screen and (min-width: 760px) {
+  .welcome {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .welcome__img {
+    display: block;
+    max-width: 43rem;
+  }
+  .welcome__title {
+    max-width: 26.5625rem;
+  }
+  .welcome__desc {
+    max-width: 27.8125rem;
+  }
+  .welcome__btn {
+    margin-top: 3.75rem;
+  }
+}

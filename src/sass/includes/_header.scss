@@ -1,0 +1,58 @@
+.header {
+  padding: 0 .625rem;
+  margin-top: 1rem;
+}
+
+.logo__icon {
+  background: $color1;
+  color: $color4;
+  font-size: 1.625rem;
+  font-weight: bold;
+  padding: 8px 17px;
+  border-radius: 50%;
+}
+
+.logo__text {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-left: 1rem;
+}
+
+.header__nav {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  top:0;
+  right: 0;
+  height: 50%;
+  width: 50%;
+  background: $color1;
+  transform: translateX(100%);
+}
+
+.menu__link {
+  text-decoration: none;
+  color: $color2;
+  margin-left: 1.5rem;
+
+}
+
+.menu__link:hover {
+  color: #1F1534;
+}
+
+@media screen and (min-width: 760px) {
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header__nav {
+    position: static;
+    transform: unset;
+    background: none;
+    flex-direction: row;
+    justify-content: flex-end;
+  }
+}
