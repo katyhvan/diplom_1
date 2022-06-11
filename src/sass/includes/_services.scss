@@ -12,11 +12,8 @@
   color: $color3;
 }
 
-.services__link {
-  text-decoration: none;
-  color: $color3;
+.services__underline {
   border-bottom: 2px solid $color3;
-  border-radius: 2px;
   padding-bottom: 1.625rem;
 }
 
@@ -94,6 +91,6 @@
     max-width: 16.5625rem;
   }
   .services__btn{
-    margin-left: 40%;
+    margin-left: 45%;
   }
 }

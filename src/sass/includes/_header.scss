@@ -1,6 +1,16 @@
 .header {
   padding: 0 .625rem;
   margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header__logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .logo__icon {
@@ -19,22 +29,40 @@
 }
 
 .header__nav {
-  display: flex;
-  flex-direction: column;
   position: fixed;
   top:0;
   right: 0;
-  height: 50%;
+  height: 100%;
   width: 50%;
   background: $color1;
+
+  display: flex;
+  justify-content: center;
   transform: translateX(100%);
+}
+
+.header__nav.is-active {
+  transform: translateX(0);
+  transition: .5s;
+}
+
+.nav__menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.hamburger {
+  display: block;
+  z-index: 100;
 }
 
 .menu__link {
   text-decoration: none;
-  color: $color2;
+  color: $color4;
   margin-left: 1.5rem;
-
 }
 
 .menu__link:hover {
@@ -42,17 +70,23 @@
 }
 
 @media screen and (min-width: 760px) {
-  .header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  .hamburger {
+    display: none;
   }
   .header__nav {
     position: static;
     transform: unset;
     background: none;
+
+    display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    width: 100%;
+  }
+  .nav__menu {
+    flex-direction: row;
+  }
+  .menu__link {
+    color: $color2;
   }
 }

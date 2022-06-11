@@ -10,13 +10,6 @@
   line-height: 3rem;
 }
 
-.apps__link {
-  text-decoration: none;
-  color: $color3;
-  // border-bottom: 2px solid $color3;
-  // padding-bottom: 1.875rem;
-}
-
 .apps_desc{
   margin-top: 1rem;
   color: $color2;
@@ -40,9 +33,6 @@
     justify-content: space-between;
     align-items: center;
   }
-  .apps__article {
-    padding-left: 5rem;
-  }
   .apps__title {
     max-width: 15.875rem;
   }
@@ -59,10 +49,11 @@
 }
 
 @media screen and (min-width: 1265px) {
-  .apps__link {
-    text-decoration: none;
-    color: $color3;
+  .apps__underline {
     border-bottom: 2px solid $color3;
     padding-bottom: 1.875rem;
+  }
+  .apps__article {
+    padding-left: 5rem;
   }
 }
