@@ -15,7 +15,6 @@ new Swiper('.swiper', {
   },
 });
 
-
 let hamburger = $('.hamburger');
 let nav = $('.header__nav');
 
