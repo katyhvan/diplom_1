@@ -1,4 +1,7 @@
 import $ from 'jquery';
+import AOS from 'aos';
+AOS.init();
+
 import Swiper, { Navigation, Pagination } from 'swiper';
 
 Swiper.use([ Navigation, Pagination ]);
@@ -14,6 +17,8 @@ new Swiper('.swiper', {
     clickable: true,
   },
 });
+
+
 
 let hamburger = $('.hamburger');
 let nav = $('.header__nav');

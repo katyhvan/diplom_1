@@ -1,6 +1,8 @@
 @import '../sass/includes/vars';
 @import '../sass/includes/body';
+
 @import 'hamburgers/_sass/hamburgers/hamburgers.scss';
+
 @import '../sass/includes/header';
 @import '../sass/includes/welcome';
 @import '../sass/includes/services';
@@ -19,7 +21,6 @@
 @import '@fortawesome/fontawesome-free/scss/solid.scss';
 @import '@fortawesome/fontawesome-free/scss/v4-shims.scss';
 
-
-
 @import '../sass/includes/checkout';
+@import '../sass/includes/footer';
 
