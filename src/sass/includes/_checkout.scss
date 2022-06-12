@@ -14,6 +14,7 @@
 .checkout__img {
   border-top-left-radius: 20px;
   border-top-right-radius: 20px;
+  width: 100%;
 }
 
 .checkout__articles {
@@ -29,7 +30,7 @@
 }
 
 .checkout__article--text {
-  padding-bottom: 2rem;
+  padding-bottom: 4rem;
 }
 
 .checkout__article--title {
@@ -47,27 +48,22 @@
   color: $color2;
   padding: .8rem 0;
 }
-.checkout__article--more {
+
+.more__link{
+  text-decoration: none;
   color: $color1;
   font-size: 1.0625rem;
   font-weight: 600;
   padding-top: 1.5625rem;
 }
+
 .checkout__btn{
   margin-top: 1rem;
   margin-left: .625rem;
+  cursor: pointer;
 }
 
 @media screen and (min-width: 760px) {
-  .checkout {
-    margin-top: 8rem;
-  }
-  .checkout__articles {
-    margin-top: 2rem;
-    flex-direction: row;
-    justify-content: center;
-    gap: 1rem;
-  }
   .checkout__underline {
     border-bottom: 2px solid $color3;
     padding-bottom: 1.875rem;
@@ -75,6 +71,19 @@
   .checkout__btn{
     margin-top: 2rem;
     margin-left: 45%;
+  }
+  .checkout__articles {
+    margin-top: 4rem;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+@media screen and (min-width: 900px) {
+  .checkout {
+    margin-top: 10rem;
+  }
+
   }
   .checkout__article--text {
     padding-left: 2rem;
@@ -84,12 +93,6 @@
   }
   .checkout__article--desc {
     max-width: 16.5625rem;
-  }
-}
-
-@media screen and (min-width: 1050px) {
-  .checkout__articles {
-    margin-top: 4rem;
   }
   .checkout__btn {
     margin-top: 4rem;

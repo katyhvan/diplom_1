@@ -12,6 +12,7 @@ import {html} from './gulp/tasks/html.js';
 import {clean} from './gulp/tasks/clean.js';
 import {img} from './gulp/tasks/img.js';
 import {server} from './gulp/tasks/server.js';
+import {fontAwesome} from './gulp/tasks/fonts.js';
 
 const watcher = (cb) => {
   gulp.watch('src/sass/**/*.{sass,scss}', styles);
@@ -24,7 +25,7 @@ const watcher = (cb) => {
 
 const dev = gulp.series(
   clean,
-  gulp.parallel(styles, scripts, html, img),
+  gulp.parallel(styles, scripts, html, img, fontAwesome),
   gulp.parallel(watcher, server)
 );
 
