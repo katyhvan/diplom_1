@@ -3,7 +3,7 @@
   background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: $color4;
-  padding: .8rem .8rem;
+  padding: 1rem 0 .8rem .8rem;
 }
 
 .footer-icon {
@@ -28,6 +28,7 @@
 .footer__item--title{
   font-size: 1.25rem;
   font-weight: bold;
+  margin-top: 1rem;
 }
 
 @media screen and (min-width: 760px) {

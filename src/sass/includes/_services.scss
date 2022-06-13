@@ -33,6 +33,7 @@
 }
 
 .services__article {
+  background: $color4;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
   padding: 1rem;
@@ -67,6 +68,7 @@
   border: 1px solid $color1;
   border-radius: 2.5rem;
   background: transparent;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   cursor: pointer;
 }
 

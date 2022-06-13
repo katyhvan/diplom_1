@@ -7,9 +7,37 @@ body {
   font-family: $font;
 }
 
+.body__element1 {
+  display: none;
+}
+
+.body__element2 {
+  display: none;
+}
+
 @media screen and (min-width: 1200px) {
   .wrapper {
     max-width: 80%;
     margin: 0 auto;
   } 
+  body {
+    position: relative;
+  }
+  .body__element1 {
+    position: absolute;
+    top: 3%;
+    display: block;
+  }
+  .body__element2 {
+    position: absolute;
+    top: 17%;
+    display: block;
+    z-index: -100;
+  }
+  .body__element3 {
+    position: absolute;
+    top: 27%;
+    right: 15%;
+    z-index: -100;
+  }
 }
