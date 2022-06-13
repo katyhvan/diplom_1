@@ -7,11 +7,7 @@ body {
   font-family: $font;
 }
 
-.body__element1 {
-  display: none;
-}
-
-.body__element2 {
+.body__element1, .body__element2, .body__element3, .body__element4, .body__element5 {
   display: none;
 }
 
@@ -32,12 +28,26 @@ body {
     position: absolute;
     top: 17%;
     display: block;
-    z-index: -100;
+    z-index: -10;
   }
   .body__element3 {
     position: absolute;
     top: 27%;
     right: 15%;
-    z-index: -100;
+    display: block;
+    z-index: -10;
+  }
+  .body__element4 {
+    position: absolute;
+    top: 76.8%;
+    left: 16%;
+    display: block;
+  }
+  .body__element5 {
+    position: absolute;
+    top: 74%;
+    right: 0;
+    z-index: -10;
+    display: block;
   }
 }
