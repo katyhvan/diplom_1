@@ -3,7 +3,6 @@ import AOS from 'aos';
 AOS.init();
 
 import Swiper, { Navigation, Pagination } from 'swiper';
-
 Swiper.use([ Navigation, Pagination ]);
 
 new Swiper('.swiper', {
@@ -18,8 +17,6 @@ new Swiper('.swiper', {
   },
 });
 
-
-
 let hamburger = $('.hamburger');
 let nav = $('.header__nav');
 
@@ -27,7 +24,6 @@ hamburger.on('click', function () {
   hamburger.toggleClass('is-active')
   nav.toggleClass('is-active')
 })
-
 
 $(function (){
   let welcome = $('.welcome');
