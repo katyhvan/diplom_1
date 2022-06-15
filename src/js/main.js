@@ -7,8 +7,10 @@ Swiper.use([ Navigation, Pagination ]);
 
 new Swiper('.swiper', {
   navigation: {
-    nextEl: '.swiper-button-next',
-    prevEl: '.swiper-button-prev',
+    // nextEl: '.swiper-button-next',
+    // prevEl: '.swiper-button-prev',
+    nextEl: '.swiper-slick-next',
+    prevEl: '.swiper-slick-prev',
   },
   pagination: {
     el: '.swiper-pagination',
