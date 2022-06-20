@@ -1,7 +1,7 @@
 
 .providers {
-  margin-top: 1rem;
-  padding: 0 .625rem;
+  margin-top: 3rem;
+  padding: 0 1.5rem;
 }
 
 .providers__title {
@@ -48,6 +48,7 @@
   }
   .providers__img {
     display: block;
+    width: 100%;
   }
   .providers__btn {
     margin-top: 2.1875rem;

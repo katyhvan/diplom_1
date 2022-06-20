@@ -1,7 +1,7 @@
 
 .services {
-  margin-top: 1rem;
-  padding: 0 .625rem;
+  margin-top: 3rem;
+  padding: 0 1.5rem;
 }
 
 .services__title {
@@ -29,14 +29,16 @@
 }
 
 .services__articles {
-  margin-top: 1rem;
+  margin-top: 2.5rem;
+  padding: 15px;
 }
 
 .services__article {
   background: $color4;
   box-shadow: 10px 40px 50px rgba(229, 233, 246, 0.4);
   border-radius: 20px;
-  padding: 1rem;
+  margin-top: 20px;
+  padding: 20px;
 }
 
 .article-services__title {

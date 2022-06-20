@@ -1,7 +1,7 @@
 
 .welcome {
-  margin-top: 1rem;
-  padding: 0 .625rem;
+  margin-top: 2.5rem;
+  padding: 0 1.5rem;
 }
 
 .welcome__title {
@@ -45,6 +45,7 @@
   }
   .welcome__img {
     display: block;
+    width: 100%;
   }
   .welcome__title {
     max-width: 26.5625rem;

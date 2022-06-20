@@ -1,16 +1,17 @@
 .header {
-  padding: 0 .625rem;
-  margin-top: 1rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+
+  margin-top: 1rem;
 }
 
 .header__logo {
   display: flex;
   flex-direction: row;
   align-items: center;
+  padding-left: 1rem;
 }
 
 .logo__icon {
@@ -33,7 +34,7 @@
   top:0;
   right: 0;
   height: 100%;
-  width: 50%;
+  width: 100%;
   background: $color1;
 
   display: flex;
@@ -85,6 +86,7 @@
   }
   .nav__menu {
     flex-direction: row;
+    padding-right: 1rem;
   }
   .menu__link {
     color: $color2;

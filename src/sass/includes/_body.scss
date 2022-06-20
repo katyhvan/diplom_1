@@ -4,6 +4,7 @@
 }
 
 body {
+  position: relative;
   font-family: $font;
 }
 
@@ -16,9 +17,6 @@ body {
     max-width: 80%;
     margin: 0 auto;
   } 
-  body {
-    position: relative;
-  }
   .body__element1 {
     position: absolute;
     top: 3%;
