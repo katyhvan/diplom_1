@@ -5,7 +5,6 @@
   color: $color4;
   background: linear-gradient(208.18deg, #67C3F3 9.05%, #5A98F2 76.74%);
   border-radius: 24px;
-  width: 100%;
 }
 
 .slider__element1 {
@@ -263,11 +262,13 @@
     position: absolute;
     top: 1%;
     right: -3%;
+    display: block;
   }
   .slider__element2{
     position: absolute;
     top: 70%;
     left: -4%;
     z-index: -10;
+    display: block;
   }
 }
